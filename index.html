@@ -88,9 +88,7 @@
         var subTotalAfterTax = subTotalAfterDiscount * 1.0625
         document.write("<h4>Items Ordered:</h4>");
         document.write(numDogs.toString() + " HotDog(s): $" + showMoney(hotdogsCost) + "<br>");
-        console.log(friesCost);
         document.write(numFries.toString() + " French Fries: $" + showMoney(friesCost) + "<br>");
-        console.log(sodaCost);
         document.write(numSoda.toString() + " Drink(s): $" + showMoney(sodaCost) + "<br>");
         document.write("<h4>Pre-Discount:</h4>");
         document.write("Total Cost: $" + showMoney(subTotalBeforeDiscount));
@@ -124,7 +122,7 @@
         </li>
     </ul>
     <div class="button-container">
-        <a href="./orders.html">
+        <a href="./index.html">
             <button type="button">Order Again!!!</button>
         </a>
     </div>
